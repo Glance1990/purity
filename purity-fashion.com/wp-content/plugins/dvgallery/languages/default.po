@@ -1,0 +1,878 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.8.4\n"
+
+#. Text in function
+#: dvgallery/gallery.php:151
+msgid "&#8249; Older galleries"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "10 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "11 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "12 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "13 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "14 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "15 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "2 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "3 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "4 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "5 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "6 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "7 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "8 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "9 Seconds"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Activate Autoplay"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Activate Counter"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Activate Download Link"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Activate Fullscreen"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Activate Thumbnails"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Activate Zoom"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Add Another Video"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Add new category"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Add new gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Align"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/gallery-grid-filter.php:19
+msgid "All"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:442
+msgid "All Categories"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:93
+msgid "Autoplay duration (second):"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Autoplay duration:"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:86
+msgid "Autoplay:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Blog Gallery Title"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Blog Style"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Blog Style Gallery Title Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Carousel Gallery Title"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Carousel Left Arrow (24x24 px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Carousel Right Arrow (24x24 px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Carousel Title Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Carousel and Grid"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 1"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 2"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 3"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 4"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 5"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 6"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Color 7"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Colors"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:63
+msgid "Columns:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Content Width"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Correct Link Format; http://www.codecanyon.net"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Blog Style Gallery Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Carousel"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Galleries"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Gallery Carousel Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:781
+msgid "DV Gallery Post Thumbnail"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154 dvgallery/dvgallery.php:609
+msgid "DV Gallery Settings"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Grid"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Grid Gallery Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Grid Gallery with Filters Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Grid with Filters"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Single Gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Single Gallery (Blog Style) Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Square Grid"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dv_widgets.php:383
+msgid "DV Square Grid Gallery Widget."
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "DV-Galleries"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #313536"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #66A7C5"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #6C7476"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #92bfdb"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #d9d5d4"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #f5f1f0"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Default color is #fff"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Delay for hiding gallery controls in second"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Disable blog image animation"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Disable blog style gallery image link animation."
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Edit gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Filter Menu"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Filter menu item font size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Fonts"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Galleries"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Gallery Info"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Gallery Info Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Gallery Info:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Gallery Settings"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Gallery Shortcode"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Gallery Type:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Gallery info bottom spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Gallery info top and bottom spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Gallery info top and bottom spacing (px)"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:601
+msgid "Gallery settings reset"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:596
+msgid "Gallery settings saved"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "General"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Grid Filter Menu"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Grid Gallery Title"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Grid Style Gallery Title Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Height of the vertical blog style gallery image (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Height of the vertical blog style gallery image on small screens (px)"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:611
+msgid "Help Documentation"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Hide Bars Delay"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "ID"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "If you dont want to use loading image, check this box."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Image Width"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Images"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Inner Spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "It is used on galleries"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:612
+msgid "Knowledge Base"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Lightbox Gallery Title"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Lightbox Gallery Title Font Size (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Link"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Link Icon (32x32 px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Link:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Loading image (64x64 px)"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:435
+msgid "Maximum number of galleries:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Menu Item Horizontal Spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Menu Item Vertical Spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Menu item right-left spacing (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Menu item top-bottom spacing (px)"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:379
+msgid "Min. Item Width (px):"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "New category"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "New gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery.php:154
+msgid "Newer galleries &#8250;"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:243
+msgid "No"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "No gallery found"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "No gallery found in trash"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Only YouTube and Vimeo videos are supported."
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Open in a new window"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Outer Spacing"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Outer Spacing (Carousel)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Outer Spacing (Grid)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Parent galleries:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Photo Gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Remove Video"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Remove loading image"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:771
+msgid "Reset"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:759
+msgid "Save Changes"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Search galleries"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:440
+msgid "Select Category:"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:230
+msgid "Select Gallery:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Select Images:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Show all categories"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between content and main container (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between filter menu and galleries (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between galleries (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between galleries (px)."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between gallery info (paragraphs) and view gallery button (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "The distance between title and gallery info (px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "The time (in seconds) between each auto transition"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Thumbnail Alignment"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Title bottom spacing"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:431
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "To activate autoplay, check this box."
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Transparent Color"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:714
+msgid "Upload"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Vertical Gallery Image Height"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Vertical Gallery Image Mobile Height"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:240
+msgid "Vertical:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Video Gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Video Icon (32x32 px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Video Title:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Video Url:"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Video {#}"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "Videos"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/singlegallery.php:43 dvgallery/gallery.php:74
+#: dvgallery/gallery-grid.php:65 dvgallery/gallery-grid-filter.php:70
+#: dvgallery/gallery-carousel.php:68
+msgid "View Gallery"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "View gallery"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dvgallery.php:613
+msgid "Visit Support"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Width of the content field (You can use numbers between 10-20 and 100)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Width of the image field (You can use numbers between 0 and 100)"
+msgstr ""
+
+#. Text in echo
+#: dvgallery/dv_widgets.php:242
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "You can make a multiselection with CTRL + click"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "You can use this field to add your own css codes"
+msgstr ""
+
+#. Text in function
+#: dvgallery/dvgallery.php:154
+msgid "Zoom Icon (32x32 px)"
+msgstr ""
+
+#. Text in function
+#: dvgallery/gallery_cpt.php:1
+msgid "gallery"
+msgstr ""

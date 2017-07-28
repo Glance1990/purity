@@ -1,0 +1,66 @@
+.mikado .items .item {
+	position: absolute;
+	overflow: hidden;
+	background: #ddd url(../images/loading.gif) no-repeat 50% 50%;	
+}
+.mikado .items .item img.pic {
+	font-size:12px;
+	position:absolute;
+	max-width:999em !important;
+	display:none;
+}
+.mikado .items .item .caption .icon {
+	font-size:14px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin:-12px 0 0 -8px;
+}
+.mikado .items .caption {
+	color: #fff;
+	font-size:11px;
+	text-align: center;
+}
+.mikado .items .caption span.text {
+	display: block;
+	padding: 10px;
+}
+.mikado .filters {
+	margin:0 0 20px 0;
+}
+.mikado .filters a {
+	text-decoration: none;
+	display: inline-block;
+	margin:0 10px 0 0;
+	color: #333;
+	border-bottom: 2px solid transparent;
+}
+.mikado .filters a:hover,
+.mikado .filters a.selected {
+	border-bottom-color: #333;
+}
+.mikado .items .item .jtg-social {
+	position: absolute;
+	z-index: 10;
+	bottom:5px;
+	left:0;
+	width:100%;
+	text-align: center;	
+	display: none;
+}
+.mikado .items .item:hover .jtg-social {
+	display: block;
+}
+.mikado .items .item .jtg-social a {
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	margin:0 10px 0 0;
+	background: rgba(0, 0, 0, 0.5);
+	width: 20px;
+	border-radius: 2px;
+	padding: 6px 4px;
+}
+.mikado .items .item .jtg-social a:last-of-type {
+	margin-right: 0;
+}

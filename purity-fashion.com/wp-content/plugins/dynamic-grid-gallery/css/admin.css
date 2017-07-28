@@ -1,0 +1,680 @@
+@import "font-awesome.css";
+
+/* General */
+
+.as {
+	width: 508px;
+	margin: 20px 0 0 0px;
+	position: relative;
+	font: 12px/18px helvetica, tahoma, sans-serif;
+	color: #231f20;
+}
+.clear {
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: #2f98c9;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+/* Header */
+
+.as header {
+	position: relative;
+	margin-bottom: 100px;
+	padding-left: 100px;
+}
+.as header > img {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.as header h2 {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font: 22px/22px 'GothamLightRegular', helvetica, tahoma, sans-serif;
+	letter-spacing: -1px;
+}
+.as header h1 {
+	margin: 0;
+	padding: 0;
+	display: block;
+	font: 68px/64px 'GothamBoldRegular', helvetica, tahoma, sans-serif;
+	letter-spacing: -5px;
+}
+.as header.ndd-subpage-header {
+	padding: 0;
+}
+.as header.ndd-subpage-header h1 {
+	font-size: 42px;
+	letter-spacing: -2px;
+}
+.ndd-back-link {
+	position: relative;
+	display: inline-block;
+	background: #231f20;
+	color: white;
+	text-decoration: none;
+	font: 10px/18px helvetica, tahoma, sans-serif;
+	border-radius: 3px;
+	padding: 0 10px;
+}
+.ndd-back-link:hover {
+	color: white;
+	text-decoration: none;
+}
+.ndd-back-link:hover:before {
+	position: absolute;
+	display: block;
+	content: '';
+	background: none;
+	left: -2px;
+	top: -2px;
+	width: 100%;
+	height: 100%;
+	padding: 1px;
+	border-radius: 4px;
+	border: 1px solid #231f20;
+}
+.as header .ndd-button-submit-wrap {
+	position: absolute !important;
+	right: 0;
+	bottom: 16px;
+}
+.as header .updated, .as header .error {
+	position: absolute;
+	bottom: -40px;
+	left: -15px;
+	display: block;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.as header .error {
+	color: #333;
+	height: 40px;
+	line-height: 40px;
+}
+
+/* Footer */
+
+.as footer {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	display: block;
+}
+.as footer p.footer-copy {
+	font: 10px/18px helvetica, tahoma, sans-serif;
+}
+.as footer ul {
+	display: block;
+	list-style: none;
+	margin: 20px 0 0 0;
+}
+.as footer ul li {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 33%;
+	float: left;
+	font: 10px/18px helvetica, tahoma, sans-serif;
+	height: 74px;
+}
+.as footer ul li span {
+	display: block;
+	width: 100%;
+}
+.as footer ul li img {
+	margin-top: 10px;
+}
+.as footer ul li:first-child:before {
+	display: none;
+}
+.as footer ul li:before {
+	position: absolute;
+	display: block;
+	content: "";
+	left: -15px;
+	top: 0;
+	width: 1px;
+	height: 100%;
+	background: #f6f6f6;
+}
+
+/* Content */
+
+.greetings {
+	display: block;
+	margin: 20px 0;
+	border-radius: 3px;
+	border: 1px solid #a4dcf7;
+	padding: 10px;
+	background: #cbeeff;
+	font: 16px/22px 'GothamLightItalic', helvetica, tahoma, sans-serif;
+}
+.as-c h1, .as-c h2 {
+	display: block;
+	font: 36px/36px 'GothamBoldRegular', helvetica, tahoma, sans-serif;
+	letter-spacing: -2px;
+	color: #bcbcbc;
+	margin-bottom: 40px;
+}
+.as-c h2 {
+	font-size: 18px;
+	letter-spacing: -1px;
+	color: #231f20;
+	margin: 20px 0 0 0;
+}
+table td {
+	position: relative;
+}
+table input[type=checkbox] {
+	width: auto;
+}
+table.ndd-clean-table {
+	width: 100%;
+	text-align: left;
+}
+table.ndd-clean-table a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	color: #231f20;
+	text-decoration: none;
+}
+table.ndd-clean-table thead, table.ndd-clean-table tbody {
+	border-bottom: 1px solid #e8e8e8;
+}
+table.ndd-clean-table td, table.ndd-clean-table th {
+	height: 40px;
+	line-height: 40px;
+}
+table.ndd-clean-table thead th {
+	font: 14px/40px 'GothamLightRegular', helvetica, tahoma, sans-serif;
+}
+
+table.ndd-clean-table thead .ndd-column-name {
+	width: 50%;
+}
+table.ndd-clean-table thead .ndd-column-delete {
+	width: 40px;
+}
+
+table.ndd-clean-table td.ndd-column-name {
+	font: 18px/40px 'GothamBoldRegular', helvetica, tahoma, sans-serif;
+	letter-spacing: -1px;
+	padding-left: 10px;
+}
+table.ndd-clean-table td.ndd-column-shortcode {
+	font: 14px/40px 'GothamMediumRegular', helvetica, tahoma, sans-serif;
+}
+
+table.ndd-clean-table td.ndd-column-delete {
+	position: relative;
+}
+table.ndd-clean-table td.ndd-column-delete .ndd-delete-row {
+	display: block;
+	width: 22px;
+	height: 22px;
+	background: url('../images/admin/delete.png');
+	opacity: 0.2;
+	-webkit-transition: opacity 0.15s;
+	-moz-transition: opacity 0.15s;
+	transition: opacity 0.15s;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+table.ndd-clean-table td.ndd-column-delete .ndd-delete-row:hover {
+	opacity: 1;
+}
+
+table.ndd-clean-table tr {
+	-webkit-transition: background-color 0.15s;
+}
+table.ndd-clean-table tr.ndd-new-row td {
+	background-color: #ffff99;
+}
+table.ndd-clean-table tr.ndd-new-row.ndd-new-row-animate td {
+	background-color: #fff;
+	-webkit-transition: background-color 2s;
+	-moz-transition: background-color 2s;
+	transition: background-color 2s;
+}
+table.ndd-yellow-rows thead tr:hover {
+	background-color: #fff;
+}
+table.ndd-yellow-rows tr:hover {
+	background-color: #ffff99;
+	-webkit-transition: background-color 0.15s;
+}
+table.ndd-yellow-rows tr.cell-heading:hover {
+	background: none;
+}
+
+.ndd-error-row {
+	background: #ff9999 !important;
+	border: 1px solid #ff7575;
+}
+.ndd-error-row input[type="text"] {
+	border-color: #ff7575 !important;
+}
+.ndd-error-row label, .ndd-error-row .ndd-form-help {
+	text-shadow: none !important;
+	color: white !important;
+}
+.ndd-error-field {
+	position: absolute;
+	left: 100%;
+	top: 0;
+	margin-left: 20px;
+	width: 200px;
+	color: #ff7575;
+}
+
+.ndd-delete-cell-wrap {
+	position: relative;
+	height: 30px;
+}
+
+/* UI */
+
+.ndd-button-green-regular, .ndd-button-submit {
+	display: inline-block !important;
+	position: relative;
+	margin: 20px 0 !important;
+	border-radius: 3px !important;
+	background: #82c92f !important;
+	border: 1px solid #6baf1b !important;
+	height: 44px !important;
+	padding: 0 15px !important;
+	color: white !important;
+	text-shadow: 0 1px 0 #6baf1b !important;
+	font: 14px/44px 'GothamBoldRegular', helvetica, tahoma, sans-serif !important;
+	cursor: pointer !important;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.ndd-button-green-regular:hover:before {
+	position: absolute;
+	display: block;
+	content: '';
+	left: -3px;
+	top: -3px;
+	width: 100%;
+	height: 100%;
+	padding: 2px;
+	border-radius: 4px;
+	border: 1px solid #6baf1b;
+}
+.ndd-button-green-regular:active, .ndd-button-submit:active {
+	background: #6baf1b !important;
+}
+.ndd-button-green-regular:hover {
+	color: white;
+	text-decoration: none;
+}
+
+/* TABS */
+
+.ndd-tab-group {
+	display: block;
+	margin: 40px 0 0 0;
+	width: 100%;
+}
+.ndd-tab-group > ul {
+	display: block;
+	list-style: none;
+	width: 100%;
+	overflow:hidden;
+	height:40px;
+}
+.ndd-tab-group > ul li {
+	position: relative;
+	display: inline-block;
+	font: 20px/28px 'GothamBoldRegular', helvetica, tahoma, sans-serif;
+	margin: 0 40px 0 0;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color: #bcbcbc;
+}
+.ndd-tab-group > ul li.active {
+	color: #231f20;
+}
+.ndd-tab-group > ul li.active:after {
+	position: absolute;
+	display: block;
+	content: '';
+	width: 138px;
+	height: 8px;
+	left: 50%;
+	bottom: -12px;
+	margin-left: -69px;
+	background: url('../images/admin/active-tab.png');
+}
+.ndd-tab-group .ndd-tab {
+	display: none;
+	opacity: 1;
+	margin-top: 40px;
+	width: 508px;
+}
+.ndd-tab-group .ndd-tab.active {
+	display: block;
+}
+.ndd-tab-group .ndd-tab.preload-active {
+	display: block;
+	opacity: 0;
+}
+
+/* IMAGE FIELDS */
+
+.admin-white-box {
+	background: #fafafa;
+	border-radius: 2px;
+	border: 1px solid #e0e0e0;
+	color: #666;
+	position: relative;
+	box-shadow: 0 -1px 2px white inset;
+}
+.dg-admin-image-wrap {
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 3px;
+	width: 50%;
+}
+.dg-admin-image-wrap table th, .dg-admin-image-wrap table td {
+	padding: 8px 0;
+}
+.dg-admin-image-wrap table tr:hover {
+	background: none;
+}
+.dg-admin-image-wrap input[type=text] {
+	width: 132px;
+}
+.dg-admin-image {
+	padding: 10px;
+}
+.dg-admin-image img {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+.dg-admin-image-inner-wrap {
+	height: 200px;
+	border-radius: 2px;
+	border: 1px solid #e0e0e0;
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.dg-admin-image-inner-wrap:hover .dg-admin-image-overlay {
+	display: block;
+}
+.dg-admin-image-overlay {
+	display: none;
+	position: absolute;
+	z-index: 99;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.2);
+	text-align: center;
+}
+.dg-image-hover-button {
+	display: block;
+	float: right;
+	margin: 10px 10px 0 0;
+	width: 30px;
+	height: 30px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 33px;
+	text-align: center;
+	cursor: pointer;
+	background: rgba(0,0,0,0.6);
+	border-radius: 3px;
+	color: white;
+}
+
+.dg-new-image-src {
+	display: none;
+}
+
+.dg-admin-new-image {
+	float: left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 3px;
+	width: 50%;
+}
+.dg-admin-new-image .dg-admin-image {
+	height: 220px;
+	text-align: center;
+	line-height: 220px;
+	vertical-align: middle;
+	cursor: pointer;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.dg-admin-new-image .dg-admin-image:hover {
+	background: #fefefe;
+}
+.dg-admin-new-image .dg-admin-image:active {
+	background: #e0e0e0;
+}
+.dg-admin-new-image .dg-admin-image div {
+	font-size: 16px;
+	text-align: center;
+	display: inline-block;
+}
+
+/* FORM */
+
+.ndd-form-help {
+	color: #a9a8a8;
+	font-size: 10px;
+	line-height: 14px;
+}
+.ndd-large-input {
+	display: block;
+	width: 100%;
+	height: 36px;
+	font-size: 16px;
+}
+.ndd-button-submit-wrap {
+	padding: 1px;
+}
+.ndd-button-submit-wrap input {
+	margin: 0 !important;
+}
+.ndd-button-submit-wrap:hover {
+	border-radius: 4px;
+	border: 1px solid #6baf1b;
+	bottom: 15px !important;
+	right: -1px !important;
+}
+.as input[disabled] {
+	opacity: 0.5;
+}
+.ndd-invisible {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'GothamBoldRegular';
+    src: url('../fonts/gotham-bold-webfont.eot');
+    src: url('../fonts/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-bold-webfont.woff') format('woff'),
+         url('../fonts/gotham-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-bold-webfont.svg#GothamBoldRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GothamLightRegular';
+    src: url('../fonts/gotham-light-webfont.eot');
+    src: url('../fonts/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-light-webfont.woff') format('woff'),
+         url('../fonts/gotham-light-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-light-webfont.svg#GothamLightRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GothamLightItalic';
+    src: url('../fonts/gotham-lightitalic-webfont.eot');
+    src: url('../fonts/gotham-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/gotham-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-lightitalic-webfont.svg#GothamLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'GothamMediumRegular';
+    src: url('../fonts/gotham-medium-webfont.eot');
+    src: url('../fonts/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gotham-medium-webfont.woff') format('woff'),
+         url('../fonts/gotham-medium-webfont.ttf') format('truetype'),
+         url('../fonts/gotham-medium-webfont.svg#GothamMediumRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* 
+  html5doctor.com Reset Stylesheet
+  adapted from Eric Myer's Reset CSS
+  v1.4.1 
+  2010-03-01
+  Author: Richard Clark - http://richclarkdesign.com
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    background-color: transparent; /* So color or background can be set on the html element */
+    line-height: 1;
+}
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}

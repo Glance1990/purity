@@ -1,0 +1,22 @@
+.dv-previous {
+    float:right;
+    text-align:right;
+}
+.dv-next {
+    float:left;
+    text-align:left;
+}
+.dvfilters li {
+    float: right;
+    margin: 0px 0px 1px 1px!important;
+}
+.dv-gallerycontent {
+    float: left;
+}
+.dv-galleryimage {
+    left:inherit;
+    right: 0;
+}
+#lg-counter {
+    float:left;
+}

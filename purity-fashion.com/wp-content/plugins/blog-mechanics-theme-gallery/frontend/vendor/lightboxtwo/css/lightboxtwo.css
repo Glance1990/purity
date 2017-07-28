@@ -1,0 +1,325 @@
+/* Import Skins */
+@import url('dark-skin/skin.css');
+@import url('light-skin/skin.css');
+
+/* Reset Styles */
+.lightboxtwo-overlay, .lightboxtwo-loader, .lightboxtwo-loader *, .lightboxtwo-holder, .lightboxtwo-holder .lightboxtwo-container, .lightboxtwo-holder .lightboxtwo-container img.lightboxtwo-image, .lightboxtwo-holder .lightboxtwo-container .lightboxtwo-caption, .lightboxtwo-toolbar, .lightboxtwo-toolbar *, .lightboxtwo-thumbnails, .lightboxtwo-thumbnails *, .lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social, .lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social * {
+    float:none;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    line-height:100%;
+    vertical-align:baseline;
+    background:transparent;
+	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	   -moz-user-select: -moz-none;
+	 -khtml-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+}
+.lightboxtwo-overlay, .lightboxtwo-loader, .lightboxtwo-loader *, .lightboxtwo-holder .lightboxtwo-container .lightboxtwo-caption, .lightboxtwo-toolbar, .lightboxtwo-thumbnails, .lightboxtwo-thumbnails *, .lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social {
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+}
+
+/* Disable & Hide Scrollbar */
+.lightboxtwo-noscroll {
+	overflow: hidden;
+}
+.lightboxtwo-closedhand * {
+	cursor: url(closedhand.cur),default !important;
+}
+
+.lightboxtwo-overlay {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 100000;
+}
+
+.lightboxtwo-loader {
+	position: fixed;
+	z-index: 100005;
+	top: 45%;
+	left: -192px;
+	padding-left: 30px;
+	opacity: 0.9;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+	filter: alpha(opacity=90);
+			
+	-webkit-border-radius: 0 100px 100px 0;
+	        border-radius: 0 100px 100px 0;
+}
+
+.lightboxtwo-loader div {
+	width: 72px;
+	height: 72px;
+	
+	-webkit-border-radius: 0 100px 100px 0;
+	        border-radius: 0 100px 100px 0;
+}
+
+.lightboxtwo-loader.horizontal {
+	left: 45%;
+	top: -192px;
+	padding: 0;
+	padding-top: 30px;
+			
+	-webkit-border-radius: 0 0 100px 100px;
+	        border-radius: 0 0 100px 100px;
+}
+
+.lightboxtwo-loader.horizontal  div {
+	-webkit-border-radius: 0 0 100px 100px;
+	        border-radius: 0 0 100px 100px;
+}
+
+.lightboxtwo-toolbar {
+	display: none;
+	position: fixed;
+	z-index: 100010;
+}
+
+.lightboxtwo-toolbar a {
+	float: left;
+	cursor: pointer;
+}
+
+.lightboxtwo-toolbar .lightboxtwo-prev-button,
+.lightboxtwo-toolbar .lightboxtwo-next-button {
+	display: none;
+}
+
+.lightboxtwo-thumbnails {
+	display: block;
+	position: fixed;
+	z-index: 100009;
+}
+
+.lightboxtwo-thumbnails.lightboxtwo-horizontal {
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+}
+
+.lightboxtwo-thumbnails.lightboxtwo-vertical {
+	top: 0;
+	right: 0;
+	width: 140px;
+	height: 100%;
+	overflow: hidden;
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-container {
+	display: block;
+	position: relative;
+}
+
+.lightboxtwo-thumbnails.lightboxtwo-horizontal .lightboxtwo-thumbnails-container {
+	width: 100%;
+	height: 100px;
+}
+
+.lightboxtwo-thumbnails.lightboxtwo-vertical .lightboxtwo-thumbnails-container {
+	width: 140px;
+	height: 100%;
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-grid {
+	display: block;
+	position: absolute;
+
+	-webkit-transform: translateZ(0);
+	   -moz-transform: translateZ(0);
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-grid .lightboxtwo-thumbnail {
+	display: block;
+	cursor: pointer;
+	padding: 10px;
+	position: relative;
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-grid .lightboxtwo-thumbnail img {
+	width: 100%;
+	height: 100%;
+	
+	-webkit-border-radius: 2px;
+	        border-radius: 2px;
+	
+	-ms-interpolation-mode: bicubic;
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-grid .lightboxtwo-thumbnail .lightboxtwo-thumbnail-icon {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: .7;
+}
+
+.lightboxtwo-thumbnails .lightboxtwo-thumbnails-grid .lightboxtwo-thumbnail .lightboxtwo-thumbnail-icon:hover {
+	opacity: 1;
+}
+
+.lightboxtwo-holder {
+	display: none;
+	position: fixed;
+	z-index: 100003;
+
+	-webkit-transform: none;
+	   -moz-transform: none;
+}
+
+.lightboxtwo-holder.lightboxtwo-next, .lightboxtwo-holder.lightboxtwo-prev {
+	cursor: pointer;
+}
+
+.lightboxtwo-holder div.lightboxtwo-container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.lightboxtwo-holder.supportTouch div.lightboxtwo-container {
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.lightboxtwo-holder img.lightboxtwo-image {
+	width: 100%;
+	height: 100%;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-caption {
+	display: none;
+	position: absolute;
+	left: 30px;
+	right: 30px;
+	bottom: 0;
+	max-width: 100%;
+	padding: 5px 10px;
+	margin: 0 auto;
+	font-size: 12px;
+    line-height: 150%;
+	word-wrap: break-word;
+	z-index: 20003;
+	
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	
+	-webkit-border-radius: 3px 3px 0 0;
+	        border-radius: 3px 3px 0 0;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social {
+	display: none;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	padding: 5px;
+	padding-left: 0;
+	z-index: 20003;
+	height: 16px;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul {
+	float: left;
+	list-style: none;
+	height: 16px;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li {
+	display: inline;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li a {
+	float: left;
+	margin-left: 5px;
+	width: 16px;
+	height: 16px;
+	background-repeat: no-repeat;
+	background-position: 50%;
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.facebook a {
+	background-image: url('../social_icons/facebook_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.digg a {
+	background-image: url('../social_icons/digg_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.twitter a {
+	background-image: url('../social_icons/twitter_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.delicious a {
+	background-image: url('../social_icons/delicious_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.reddit a {
+	background-image: url('../social_icons/reddit_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-container .lightboxtwo-social ul li.googleplus a {
+	background-image: url('../social_icons/google_plus_16.png');
+}
+
+.lightboxtwo-holder .lightboxtwo-alert {
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	padding-top: 100px;
+	margin: auto;
+	width: 300px;
+	height: 50px;
+}
+
+.lightboxtwo-holder .lightboxtwo-wrapper {
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.lightboxtwo-holder .lightboxtwo-inner-toolbar {
+	position: relative;
+	z-index: 100;
+}
+
+.lightboxtwo-holder .lightboxtwo-inner-toolbar .lightboxtwo-toolbar {
+	position: absolute;
+}
+
+/* Style arrow buttons */
+.lightboxtwo-button {
+	position: fixed;
+	z-index: 100008;
+	cursor: pointer;
+}
+
+/* Style mobile devices */
+.isMobile .lightboxtwo-button,
+.isMobile .lightboxtwo-thumbnails {
+	display: none !important;
+}
+
+.isMobile .lightboxtwo-toolbar .lightboxtwo-prev-button,
+.isMobile .lightboxtwo-toolbar .lightboxtwo-next-button {
+	display: block;
+}

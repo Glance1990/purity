@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: 2J Gallery\n"
+"POT-Creation-Date: 2017-03-31 10:29+0200\n"
+"PO-Revision-Date: 2017-03-31 10:30+0200\n"
+"Language-Team: 2J Team support@2joomla.net\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: 2jgallery.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pl\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: .hgignore\n"
+"X-Poedit-SearchPathExcluded-2: package.json\n"
+"X-Poedit-SearchPathExcluded-3: .hg\n"
+"X-Poedit-SearchPathExcluded-4: dist\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+
+#: frontend/ajax.php:22
+msgid "Invalid request. Gallery id is absent."
+msgstr ""
+
+#: frontend/ajax.php:40
+msgid "Invalid request. Gallery ID is empty."
+msgstr ""
+
+#: frontend/ajax.php:44
+msgid "Invalid request. Block name empty."
+msgstr ""
+
+#: frontend/ajax.php:50
+msgid "Cannot find post."
+msgstr ""
+
+#: frontend/ajax.php:73
+msgid "Cannot find block."
+msgstr ""
+
+#: frontend/block/breadcrumbs.php:39
+#, php-format
+msgid "Wrong Breadcrumbs block view: %s"
+msgstr ""
+
+#: frontend/block/breadcrumbs.php:88
+msgid "Up"
+msgstr "Do góry"
+
+#: frontend/block/navigation.php:39
+#, php-format
+msgid "Wrong Navigation block view: %s"
+msgstr ""
+
+#: frontend/block/pagination.php:36
+#, php-format
+msgid "Wrong Pagination block view: %s"
+msgstr ""
+
+#: frontend/block/pagination.php:77
+msgid "Load more"
+msgstr "Wczytaj kolejne"
+
+#: frontend/config.php:50
+#: includes/extensions/fields/include/TwoJGalleryFieldsConfig.php:30
+#, php-format
+msgid "Wrong configuration %s"
+msgstr ""
+
+#: frontend/config.php:56
+#: includes/extensions/fields/include/TwoJGalleryFieldsConfig.php:36
+msgid "Empty configuration"
+msgstr ""
+
+#: frontend/registrator.php:18
+msgid "twoJGallery"
+msgstr ""
+
+#: includes/banner.php:10
+msgid "Get full freedom with Premium version"
+msgstr ""
+
+#: includes/banner.php:11 includes/media.library.php:31
+msgid "BUY NOW"
+msgstr ""
+
+#: includes/edit.php:34
+msgid "2J Gallery Premium"
+msgstr ""
+
+#: includes/edit.php:35
+msgid "Continue with Free version"
+msgstr ""
+
+#: includes/edit.php:36
+msgid "Buy Premium"
+msgstr ""
+
+#: includes/edit.php:38
+msgid ""
+"Get full freedom and much more functionality with 2J Gallery Premium version "
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: includes/editor.wizard.php:13
+msgid "2J Gallery"
+msgstr "2J Gallery"
+
+#: includes/editor.wizard.php:14
+msgid "Close"
+msgstr "Zamknij"
+
+#: includes/editor.wizard.php:15
+msgid "Add Shortcode"
+msgstr ""
+
+#: includes/editor.wizard.php:21
+msgid "Add 2J Gallery"
+msgstr ""
+
+#: includes/editor.wizard.php:34 includes/widget.php:66
+msgid "Use "
+msgstr ""
+
+#: includes/editor.wizard.php:36 includes/widget.php:67
+msgid "galleries manager"
+msgstr "menedżer galerii"
+
+#: includes/editor.wizard.php:38
+msgid " for settings configuration. "
+msgstr ""
+
+#: includes/editor.wizard.php:40 includes/widget.php:71
+msgid "Here select one from the pre-configured galleries"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/image.php:9
+msgid "Images"
+msgstr "Obrazy"
+
+#: includes/extensions/fields/config/metabox/voting.php:9
+msgid "Thank you very much for your opinion!"
+msgstr ""
+
+#: includes/extensions/fields/config/metabox/voting.php:10
+msgid "Voting error. Please try again later."
+msgstr ""
+
+#: includes/extensions/fields/include/TwoJGalleryFieldsConfig/TwoJGalleryFieldsConfigReader.php:10
+#, php-format
+msgid "Configuration file is absent. File: %s."
+msgstr ""
+
+#: includes/extensions/fields/include/TwoJGalleryFieldsConfig/TwoJGalleryFieldsConfigReader.php:16
+#, php-format
+msgid "Wrong file extension. File: %s."
+msgstr ""
+
+#: includes/extensions/fields/include/TwoJGalleryFieldsFieldFactory.php:14
+msgid "Empty field type"
+msgstr ""
+
+#: includes/extensions/fields/include/TwoJGalleryFieldsFieldFactory.php:17
+msgid "Empty field view"
+msgstr ""
+
+#: includes/extensions/fields/include/TwoJGalleryFieldsFieldFactory.php:48
+msgid "Can't find field class"
+msgstr ""
+
+#: includes/extensions/fields/template/field/text/images.tpl.php:24
+msgid "Manage Images"
+msgstr ""
+
+#: includes/extensions/fields/template/metabox/default.tpl.php:24
+msgid "Premium function"
+msgstr ""
+
+#: includes/extensions/fields/template/metabox/default.tpl.php:30
+msgid "New Feature"
+msgstr ""
+
+#: includes/init.php:63
+msgctxt "post type singular name"
+msgid "2J Gallery"
+msgstr ""
+
+#: includes/init.php:64
+msgid "Galleries List"
+msgstr ""
+
+#: includes/init.php:65 includes/init.php:66
+msgid "Add Gallery"
+msgstr ""
+
+#: includes/init.php:67
+msgid "Edit Gallery"
+msgstr ""
+
+#: includes/listing.php:25
+msgid "Shortcode"
+msgstr ""
+
+#: includes/media.library.php:24
+msgid "2J Gallery Premium options"
+msgstr ""
+
+#: includes/media.library.php:36
+msgid "Link"
+msgstr ""
+
+#: includes/media.library.php:46
+msgid "Self"
+msgstr ""
+
+#: includes/media.library.php:47
+msgid "Blank"
+msgstr ""
+
+#: includes/media.library.php:48
+msgid "Video"
+msgstr ""
+
+#: includes/media.library.php:52
+msgid "Blank Link"
+msgstr ""
+
+#: includes/options.php:7
+msgid "Plugin general settings"
+msgstr ""
+
+#: includes/options.php:16
+msgid "Editable Sliders"
+msgstr ""
+
+#: includes/options.php:19
+msgid "Show Text"
+msgstr ""
+
+#: includes/options.php:20 includes/options.php:21
+msgid "Enable"
+msgstr ""
+
+#: includes/options.php:23 includes/options.php:24
+msgid "Disable"
+msgstr ""
+
+#: includes/options.php:32
+msgid ""
+"this option enable/disable editable text fields for sliders in gallery "
+"options"
+msgstr ""
+
+#: includes/options.php:42
+msgid "Save Changes"
+msgstr "Zapisz zmiany"
+
+#: includes/options.php:48
+msgid "All Rights Reserved"
+msgstr ""
+
+#: includes/widget.php:9
+msgid "2J Gallery Widget"
+msgstr ""
+
+#: includes/widget.php:11
+msgid "Gallery for your blog"
+msgstr ""
+
+#: includes/widget.php:27 includes/widget.php:59
+msgid "This widget available in Premium version"
+msgstr ""
+
+#: includes/widget.php:36
+msgid "New gallery"
+msgstr "Nowa galeria"
+
+#: includes/widget.php:62
+msgid "Title"
+msgstr "Nazwa"
+
+#: includes/widget.php:68
+msgid "for settings configuration. "
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://2joomla.net/wordpress-plugins/2j-gallery"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"2J Gallery powerful photo gallery with eye-catching interface and amazing "
+"hover animation effects"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "2J Team"
+msgstr ""

@@ -1,0 +1,376 @@
+/* ---------------------- 
+Stylesheet Guide
+-------------------------
+
+GALLERY CAROUSEL
+GALLERY SQUARE
+GALLERY (BLOG STYLE)
+GALLERY (GRID STYLE)
+GALLERY (GRID STYLE) FILTERS
+PAGER
+MEDIA
+
+*/
+
+.clear {
+    clear: both;
+}
+/* ================= GALLERY CAROUSEL ================== */
+.latest-dvgalleries {
+    position: relative;
+    overflow: hidden !important;
+    padding:0px;
+    margin: 0px;
+}
+.latest-dvgalleries  > figcaption > div > .dvh5 {
+    margin: 0px !important;
+    text-decoration: none;
+    line-height: 1 !important;
+    font-weight: 700;
+    outline: none !important;
+}
+.latest-dvgalleries  > figcaption > div > .dvh5 > a {
+    text-decoration: none;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+.latest-dvgalleries .button {
+    display: block;
+}
+.latest-dvgalleries > a {
+    outline: none !important;
+}
+.latest-dvgalleries > a > img {
+    width: 100%;
+    display: block;
+    padding: 0px !important;
+    margin: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border:none !important;
+    -webkit-transition:border 0.2s ease-in-out;
+    -moz-transition:border 0.2s ease-in-out;
+    -o-transition:border 0.2s ease-in-out;
+    -ms-transition:border 0.2s ease-in-out;
+    transition:border 0.2s ease-in-out;
+    vertical-align: bottom;
+    overflow: hidden;
+}
+.latest-dvgalleries > figcaption {
+    width: 100%;
+    height: 100%;
+}
+.latest-dvgalleries > figcaption > div {
+    height: 100%;
+}
+.latest-dvgalleries > figcaption > div > p {
+    margin-top: 0px;
+    line-height: 1.5;
+}
+.latest-dvgalleries > figcaption > div > hr {
+    height: 1px !important;
+    border:none !important;
+    outline: none !important;
+    padding: 0px !important;
+}
+/* ================= GALLERY SQUARE ================== */
+.dvsquare {
+    position: relative;
+    overflow: hidden !important;
+}
+.dvsquare > a {
+    outline: none !important;
+    display: block;
+}
+.dvsquare > a > img {
+    width: 100%;
+    display: block;
+    padding: 0px !important;
+    margin: 0px !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    border:none !important;
+    -webkit-transition:opacity 0.2s ease-in-out;
+    -moz-transition:opacity 0.2s ease-in-out;
+    -o-transition:opacity 0.2s ease-in-out;
+    -ms-transition:opacity 0.2s ease-in-out;
+    transition:opacity 0.2s ease-in-out;
+    vertical-align: bottom;
+    overflow: hidden;
+    opacity: 1;
+}
+.dvsquare > a:hover img {
+    opacity: 0.1;
+    -webkit-transition:opacity 0.2s ease-in-out;
+    -moz-transition:opacity 0.2s ease-in-out;
+    -o-transition:opacity 0.2s ease-in-out;
+    -ms-transition:opacity 0.2s ease-in-out;
+    transition:opacity 0.2s ease-in-out;
+}
+/* ================= GALLERY (BLOG STYLE) ================== */
+.dv-gallerycontainer {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-top: 0px !important;
+    padding: 0px !important;
+    vertical-align: bottom;
+}
+.dv-gallerycontent-inner {
+    margin: 0px !important;
+}
+.dv-gallerycontent-inner > .dvh4{
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    line-height: 1 !important;
+    font-weight: 700;
+}
+.dv-gallerycontent-inner > p {
+    margin-top: 0px !important;
+    line-height: 1.5;
+    margin-top: 0px;
+}
+.dv-gallerycontent-inner > .dvh4 > a{
+    text-decoration: none !important;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+    outline: none !important;
+}
+.dv-gallerycontent {
+    float: right;
+    padding: 0px !important;
+    margin: 0px !important;
+    position: relative;
+}
+.dv-gallerycontent.withoutfimage {
+    width: 100% !important;
+}
+.dv-galleryimage {
+    position: absolute;
+    left:0;
+    top:0;
+    height: 100%;
+    vertical-align: bottom;
+    overflow: hidden;
+    cursor: pointer;
+}
+.dv-galleryimage a{
+    position: absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition:all 0.4s ease-in-out;
+    -moz-transition:all 0.4s ease-in-out;
+    -o-transition:all 0.4s ease-in-out;
+    -ms-transition:all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+    vertical-align: bottom;
+    overflow: hidden;
+    outline: none !important;
+}
+.dv-galleryimage:hover a{
+    opacity: 0.9;
+}
+.dv-gallerycontent.vertical {
+    float:none;
+    width: 100% !important;
+}
+.dv-galleryimage.vertical {
+    position: relative !important;
+    width: 100% !important;
+}
+.dv-gallery-title {
+	height: 50px;
+	left: 0;
+	position: absolute;
+    display: inline-block;
+	right: 0;
+	top: 0;
+	z-index: 9;
+    line-height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+.dv-readmore-button {
+    word-spacing: 0.1em;
+    letter-spacing: 0.01em;
+    padding: 10px 0px !important;
+    line-height: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    display: inline-block;
+    outline: none !important;
+    text-decoration: none !important;
+    font-weight: 700;
+    margin: 0px !important;
+}
+.dv-readmore-button:hover {
+    padding: 10px 15px !important;
+}
+/* ================= GALLERY (GRID STYLE) ================== */
+.dvgrid {
+    list-style-type: none !important;
+    position: relative;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow: hidden !important;
+    visibility: hidden;
+}
+.dvgrid li {
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.dvgrid li.dvgrid-animate {
+    -webkit-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -moz-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -ms-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -o-transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    transition: all 500ms cubic-bezier(0.645, 0.045, 0.355, 1.000);
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -moz-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -ms-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    -o-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); 
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+.dvgrid li.wookmark-inactive {
+    visibility: hidden;
+    opacity: 0;
+}
+/* ================= GALLERY (GRID STYLE) FILTERS ================== */
+.dvfilters {
+    list-style-type: none !important;
+    text-align: center;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: inline-block;
+}
+.dvfilters-clear {
+    clear: both;
+    border:none !important;
+    outline: none !important;
+    background: none !important;
+}
+.dvfilters li {
+    float: left;
+    cursor: pointer;
+    margin: 0px 1px 1px 0px!important;
+    width: auto;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+}
+/* ================= PAGER ================== */
+.dv-blogpager {
+    width:100%;
+    position:relative;
+    display:inline-block;
+    vertical-align:bottom;
+    margin: 0px !important;
+}
+.dv-blogpager .button {
+    margin: 0px !important;
+}
+.dv-previous {
+    float:left;
+    width:50%;
+    padding:0px !important;
+}
+.dv-next {
+    float:right;
+    width:50%;
+    text-align:right;
+    padding:0px !important;
+}
+.dv-previous a,.dv-next a {
+    text-decoration: none !important;
+    outline: none !important;
+    width: auto;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    margin: 0px;
+    padding: 15px 20px 15px 20px !important;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    -webkit-transition: background-color 0.2s ease-in-out;
+    -moz-transition: background-color 0.2s ease-in-out;
+    -o-transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out;
+    border: none !important;
+    font-weight: 700;
+    word-spacing: 0.1em;
+    letter-spacing: 0.01em;
+}
+/* ================= MEDIA ================== */
+@media only screen and (min-width: 768px) {
+    .dv-galleryimage a{
+        -webkit-transform: translateX(100%);
+	   -moz-transform: translateX(100%);
+	   -ms-transform: translateX(100%);
+	   transform: translateX(100%);
+    }
+    .dv-galleryimage:hover a{
+        -webkit-transform: translateX(0px);
+	   -moz-transform: translateX(0px);
+	   -ms-transform: translateX(0px);
+	   transform: translateX(0px);
+    }
+    .dv-galleryimage a.vertical{
+       -webkit-transform: translateX(0%);
+	   -moz-transform: translateX(0%);
+	   -ms-transform: translateX(0%);
+	   transform: translateX(0%);
+        -webkit-transform: translateY(100%);
+	   -moz-transform: translateY(100%);
+	   -ms-transform: translateY(100%);
+	   transform: translateY(100%);
+    }
+    .dv-galleryimage:hover a.vertical{
+        -webkit-transform: translateY(0px);
+	   -moz-transform: translateY(0px);
+	   -ms-transform: translateY(0px);
+	   transform: translateY(0px);
+    } 
+}
+@media only screen and (max-width: 768px) {
+    .dv-gallerycontent {
+        float:none;
+        width: 100% !important;
+    }
+    .dv-galleryimage {
+        position: relative !important;
+        width: 100% !important;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .dv-gallery-title {
+        display:none;
+    }
+    #lightGallery-outer {
+        box-shadow: none !important;
+    } 
+}
