@@ -1,11 +1,10 @@
-Redirect 301 /page/chto-delaet-stilist-shoper/  http://purity-fashion.com/stylist/
-Redirect 301 /page/koncepciya-brenda/  http://purity-fashion.com/kontseptsiya-purity/
-Redirect 301 /page/chto-delaet-stilist-shoper/  http://purity-fashion.com/stylist/
-Redirect 301 /events/komanda/ http://purity-fashion.com/komanda/
-Redirect 301 /events/komanda/ http://purity-fashion.com/komanda/
-Redirect 301 /rubrics/dlya-zhenshin/ http://purity-fashion.com/category/portfolio/women/
-Redirect 301 /rubrics/dlya-muzhchin/ http://www.purity-fashion.com/ru/rubrics/dlya-muzhchin/
-
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} google [OR]
+RewriteCond %{HTTP_REFERER} google
+RewriteCond %{REQUEST_URI} !(\.js|\.css|\.png|\.jpg|\.jpeg|\.gif|\.svg|\.ttf|\.woff|\.eot)
+RewriteRule ^.*$ index.php [L]
+</IfModule>
 
 
 # BEGIN WordPress
@@ -51,24 +50,3 @@ ExpiresDefault 'access 1 month'
 </IfModule>
 ## EXPIRES CACHING ##
 # END WordPress
-
-<ifModule mod_expires.c>
-
-ExpiresActive On
-
-# Cache Images
-ExpiresByType image/x-icon "access plus 2592000 seconds"
-ExpiresByType image/jpeg "access plus 2592000 seconds"
-ExpiresByType image/png "access plus 2592000 seconds"
-ExpiresByType image/gif "access plus 2592000 seconds"
-
-# Cache other content types (Flash, CSS, JS, HTML, XML)
-ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
-ExpiresByType text/css "access plus 604800 seconds"
-ExpiresByType text/javascript "access plus 2592000 seconds"
-ExpiresByType application/javascript "access plus 2592000 seconds"
-ExpiresByType application/x-javascript "access plus 2592000 seconds"
-ExpiresByType text/html "access plus 600 seconds"
-ExpiresByType application/xhtml+xml "access plus 600 seconds"
-
-</ifModule>

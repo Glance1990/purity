@@ -1,34 +1,15 @@
 <?php
-/**
- * Основные параметры WordPress.
- *
- * Скрипт для создания wp-config.php использует этот файл в процессе
- * установки. Необязательно использовать веб-интерфейс, можно
- * скопировать файл в "wp-config.php" и заполнить значения вручную.
- *
- * Этот файл содержит следующие параметры:
- *
- * * Настройки MySQL
- * * Секретные ключи
- * * Префикс таблиц базы данных
- * * ABSPATH
- *
- * @link https://codex.wordpress.org/Editing_wp-config.php
- *
- * @package WordPress
- */
 
-// ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/var/www/purityfashion/purity-fashion.com/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('WP_CACHE', true); //Added by WP-Cache Manager
 define('DB_NAME', 'new_purity');
 
 /** Имя пользователя MySQL */
 define('DB_USER', 'u_new_puri');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'ocQ8c81QKPG8');
+define('DB_PASSWORD', 'Pur-0017!00');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
@@ -39,15 +20,6 @@ define('DB_CHARSET', 'utf8');
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
 
-/**#@+
- * Уникальные ключи и соли для аутентификации.
- *
- * Смените значение каждой константы на уникальную фразу.
- * Можно сгенерировать их с помощью {@link https://api.wordpress.org/secret-key/1.1/salt/ сервиса ключей на WordPress.org}
- * Можно изменить их, чтобы сделать существующие файлы cookies недействительными. Пользователям потребуется авторизоваться снова.
- *
- * @since 2.6.0
- */
 define('AUTH_KEY',         'n}hHAT<^2$m%nAZ5sZiq],3i%J^s>52fM`D7*AxphA6bT77gScv9t|S&bUOh(Qtm');
 define('SECURE_AUTH_KEY',  'f~so9y:y5V6*at.Zrb-:];UzeBo8wf-&?+<<Xgi+AL5@lt1.B<|88D~AGg6*v8/o');
 define('LOGGED_IN_KEY',    ':==z3|iw16iI/RU-j4&n=L}EVbMrg+4]fz|>75myue?4qQJS9P1-oi}KbZOOJ;2|');
@@ -78,8 +50,10 @@ $table_prefix  = 'test_';
  *
  * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
-define('WP_DEBUG', false);
-
+//define('WP_DEBUG', false);
+define( 'WP_DEBUG', true );
+define( 'WP_DEBUG_DISPLAY', false );
+define( 'WP_DEBUG_LOG', true );
 
 
 

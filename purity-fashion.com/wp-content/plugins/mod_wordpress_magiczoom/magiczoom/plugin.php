@@ -1157,7 +1157,8 @@ function  magictoolbox_WordPress_MagicZoom_callback($matches) {
     if (preg_match('/aligncenter|alignleft|alignright/is', $matches[0]) && preg_match("/class\s*=\s*[\'\"]\s*(?:[^\"\'\s]*\s)*" . preg_quote('MagicZoom', '/') . "(?:\s[^\"\'\s]*)*\s*[\'\"]/iUs", $result)) {
         $cl = "alignright";
         if (preg_match('/aligncenter/is', $matches[0])) {
-            $cl = "aligncenter";
+            $cl = "aligncenter";
+
         } else if (preg_match('/alignleft/is', $matches[0])) {
             $cl = "alignleft";
         }

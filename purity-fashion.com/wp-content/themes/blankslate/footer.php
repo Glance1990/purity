@@ -10,6 +10,9 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/grid12.css" />
 <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/newcss.css" />
+<link rel="stylesheet" type="text/css" href="http://purity-fashion.com/wp-content/themes/blankslate/key2017.css" />
+
+
 
 <?php wp_footer(); ?>
 

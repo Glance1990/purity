@@ -14,5 +14,3 @@ Disallow: */comments/
 Disallow: /?feed=
 Disallow: /?s=
 
-Host: site.ru
-Sitemap: http://cryomec.com/ru/sitemap.xml

@@ -379,7 +379,129 @@ img.mfp-img {
   right: 0;
   padding-top: 0; }
 
-mfp-container, 	.rbs-img, 	.rbs-imges-load-more, 	.rbs-imges-filter,	.rbs-imges-drop-down-menu > li > a, .rbs-imges-drop-down-header > a {    	font-family: 'Open Sans';  	}   .rbs-img{    font-size: 13px;  }  .rbs-img-container{}  .rbs-img-content{    padding: 20px;    position: relative;    background: white;    color: rgb(51, 51, 51);    line-height: 17px;  }/* THUMBNAIL   */  .thumbnail-overlay{    background: black; /* fallback for IE8 */    background-color: rgba(0,0,0, .30);    color: #333333;  }	  .thumbnail-overlay>div.aligment{    height: 100%;    width: 100%;    display: table !important;  }  .thumbnail-overlay>div.aligment>div.aligment{    padding: 10px;    display: table-cell !important;    vertical-align: middle; /* FOR VERTICAL ALIGN */    text-align:center; /* FOR HORIZONTAL ALIGN */  }  .overlay-title{    font-weight: 500;    font-size: 16px;    display: block;    line-height: 16px;    margin-bottom: 5px;  }  .overlay-description{    font-weight: 400;    font-size: 12px;    display: block;    line-height: 16px;  }  .thumbnail-overlay i.fa{    text-align: center;    display: inline-block;  	 margin: 3px;    padding: 17px 17px 17px 17px;    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */       -moz-box-sizing: border-box;    /* Firefox, other Gecko */            box-sizing: border-box;         /* Opera/IE 8+ */      -webkit-border-radius: 50%; /* Safari 3-4, iOS 1-3.2, Android 1.6- */       -moz-border-radius: 50%; /* Firefox 1-3.6 */            border-radius: 50%; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */    -webkit-transition: -webkit-transform .2s, background .1s;       -moz-transition:    -moz-transform .2s, background .1s;         -o-transition:      -o-transform .2s, background .1s;        -ms-transition:     -ms-transform .2s, background .1s;            transition:         transform .2s, background .1s;  }      .thumbnail-overlay i.fa:hover{             cursor: pointer;  }  .rbs-lightbox{    cursor: pointer;  }    .mfp-arrow.mfp-arrow:before,   .mfp-arrow.mfp-arrow:after { border:none !important; }  .mfp-arrow.mfp-arrow-left {    background:url('icons/icon-arrow-left.png') 50% 50% no-repeat !important;  }    .mfp-arrow.mfp-arrow-right {    background:url('icons/icon-arrow-right.png') 50% 50% no-repeat !important;  }    .mfp-close{    background:url('icons/icon-close.png') right no-repeat !important;  }	.rbs-imges-social-container{		float: right;		margin-right: 10px;		font-size: 18px;		cursor: pointer;	}	.rbs-imges-social-container>*{		margin-right: 5px;	}		.rbs_gallery_button_bottom .button{		cursor: pointer;	}
+mfp-container, 
+	.rbs-img, 
+	.rbs-imges-load-more, 
+	.rbs-imges-filter,
+	.rbs-imges-drop-down-menu > li > a, .rbs-imges-drop-down-header > a {
+    	font-family: 'Open Sans';
+  	}
+
+ 
+  .rbs-img{
+    font-size: 13px;
+  }
+
+  .rbs-img-container{}
+
+  .rbs-img-content{
+    padding: 20px;
+    position: relative;
+    background: white;
+    color: rgb(51, 51, 51);
+    line-height: 17px;
+  }
+
+/* THUMBNAIL   */
+
+  .thumbnail-overlay{
+    background: black; /* fallback for IE8 */
+    background-color: rgba(0,0,0, .30);
+    color: #333333;
+  }
+	
+
+  .thumbnail-overlay>div.aligment{
+    height: 100%;
+    width: 100%;
+    display: table !important;
+  }
+
+  .thumbnail-overlay>div.aligment>div.aligment{
+    padding: 10px;
+    display: table-cell !important;
+    vertical-align: middle; /* FOR VERTICAL ALIGN */
+    text-align:center; /* FOR HORIZONTAL ALIGN */
+  }
+
+  .overlay-title{
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    line-height: 16px;
+    margin-bottom: 5px;
+  }
+
+  .overlay-description{
+    font-weight: 400;
+    font-size: 12px;
+    display: block;
+    line-height: 16px;
+  }
+
+  .thumbnail-overlay i.fa{
+    text-align: center;
+    display: inline-block;
+  	 margin: 3px;
+    padding: 17px 17px 17px 17px;
+
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+       -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+            box-sizing: border-box;         /* Opera/IE 8+ */
+  
+    -webkit-border-radius: 50%; /* Safari 3-4, iOS 1-3.2, Android 1.6- */
+       -moz-border-radius: 50%; /* Firefox 1-3.6 */
+            border-radius: 50%; /* Opera 10.5, IE 9, Safari 5, Chrome, Firefox 4, iOS 4, Android 2.1+ */
+
+    -webkit-transition: -webkit-transform .2s, background .1s;
+       -moz-transition:    -moz-transform .2s, background .1s;
+         -o-transition:      -o-transform .2s, background .1s;
+        -ms-transition:     -ms-transform .2s, background .1s;
+            transition:         transform .2s, background .1s;
+  }  
+  
+  .thumbnail-overlay i.fa:hover{       
+      cursor: pointer;
+  }
+
+
+
+
+  .rbs-lightbox{
+    cursor: pointer;
+  }
+  
+  .mfp-arrow.mfp-arrow:before, 
+  .mfp-arrow.mfp-arrow:after { border:none !important; }
+
+  .mfp-arrow.mfp-arrow-left {
+    background:url('icons/icon-arrow-left.png') 50% 50% no-repeat !important;
+  }
+  
+  .mfp-arrow.mfp-arrow-right {
+    background:url('icons/icon-arrow-right.png') 50% 50% no-repeat !important;
+  }
+  
+  .mfp-close{
+    background:url('icons/icon-close.png') right no-repeat !important;
+  }
+
+
+
+	.rbs-imges-social-container{
+		float: right;
+		margin-right: 10px;
+		font-size: 18px;
+		cursor: pointer;
+	}
+
+	.rbs-imges-social-container>*{
+		margin-right: 5px;
+	}
+	
+	.rbs_gallery_button_bottom .button{
+		cursor: pointer;
+	}
 /*
 *      Robo Gallery     
 *      Licensed under the GPLv2 license - http://opensource.org/licenses/gpl-2.0.php
@@ -711,7 +833,47 @@ mfp-container, 	.rbs-img, 	.rbs-imges-load-more, 	.rbs-imges-filter,	.rbs-im
 	color: white; 
 	background-color: rgba(185, 35, 215,0.8);
 }
-/**      Robo Gallery     *      Licensed under the GPLv2 license - http://opensource.org/licenses/gpl-2.0.php*      Copyright (c) 2014-2016, Robosoft. All rights reserved.*      Available only in  http://robosoft.co/robogallery*/.robo_gallery .rbs-img-container div a,.robo_gallery .rbs-img-container div a:link,.robo_gallery .rbs-img-container div a:focus,.robo_gallery .rbs-img-container div a:hover{	border-bottom: none;}	.rbs_gallery_button_bottom .rbs-imges-no-more-entries{	display: none !important;}.rbs_gallery_button_bottom{	margin-top: 10px;}.robo_gallery .rbs-img-container img{	box-shadow: none !important;}.robo_gallery .rbsTitle{	padding: 0 0 4px 0;}.robo_gallery .rbsIcons{	text-align: center;	padding: 0 0 4px 0;}.robo_gallery .rbsIcons .rbsZoomIcon,.robo_gallery .rbsIcons .rbsLinkIcon {	line-height: 0.9 ;}.robo_gallery_hide_block{	display: none !important;}
+/*
+*      Robo Gallery     
+*      Licensed under the GPLv2 license - http://opensource.org/licenses/gpl-2.0.php
+*      Copyright (c) 2014-2016, Robosoft. All rights reserved.
+*      Available only in  http://robosoft.co/robogallery
+*/
+
+.robo_gallery .rbs-img-container div a,
+.robo_gallery .rbs-img-container div a:link,
+.robo_gallery .rbs-img-container div a:focus,
+.robo_gallery .rbs-img-container div a:hover{
+	border-bottom: none;
+}
+	
+.rbs_gallery_button_bottom .rbs-imges-no-more-entries{
+	display: none !important;
+}
+.rbs_gallery_button_bottom{
+	margin-top: 10px;
+}
+
+.robo_gallery .rbs-img-container img{
+	box-shadow: none !important;
+}
+.robo_gallery .rbsTitle{
+	padding: 0 0 4px 0;
+}
+
+.robo_gallery .rbsIcons{
+	text-align: center;
+	padding: 0 0 4px 0;
+}
+
+.robo_gallery .rbsIcons .rbsZoomIcon,
+.robo_gallery .rbsIcons .rbsLinkIcon {
+	line-height: 0.9 ;
+}
+
+.robo_gallery_hide_block{
+	display: none !important;
+}
 
 /*! @license
 * Copyright 2012-2014 Alex Wolfe and Rob Levin

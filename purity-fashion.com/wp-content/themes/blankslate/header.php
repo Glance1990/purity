@@ -7,11 +7,12 @@
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <link rel="stylesheet" type="text/css" href="http://purity-fashion.com/wp-content/themes/blankslate/key2017.css" />  
 
-<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'></script>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+<?php wp_head(); ?>
 
-
-
-
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script type="text/javascript" src="http://purity-fashion.com/wp-content/themes/blankslate/js/jquery.onepage-scroll.js"></script>
+  <link href='http://max.sv-ua.com/test/wp-content/themes/blankslate/onepage-scroll.css' rel='stylesheet' type='text/css'>-->
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -23,7 +24,7 @@
   ga('send', 'pageview');
 
 </script>
-<?php wp_head(); ?>
+
 </head>
 <body <?php body_class(); ?>>
 <div id="wrapper" class="hfeed wrapper">
